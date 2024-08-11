@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registrasi</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <img src="logo-detiktravel.png" id="icon" alt="icon" />
+      <ul>
+        <li>
+          <a class="navigation" style="text-decoration: none" href="">Home</a>
+        </li>
+        <li>
+          <a class="navigation" style="text-decoration: none" href="">Tentang Program</a>
+        </li>
+        <li>
+          <a class="navigation" style="text-decoration: none" href="">Berita</a>
+        </li>
+        <li>
+          <a
+            class="navigation"
+            id="registrasi"
+            style="text-decoration: none"
+            href=""
+            >Registrasi</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div class="Registrasi">
+      <div class="Registrasi d-flex justify-content-center align-items-center">
+        <form class="white-box">
+          <h2 class="text-center text-primary mb-4">Registrasi</h2>
+          <p class="text-center text-secondary mb-4">
+            Lengkapi data diri kamu dengan benar
+          </p>
+          <div class="form-group">
+            <label for="namaLengkap">Nama lengkap</label>
+            <input
+              type="text"
+              class="form-control"
+              id="namaLengkap"
+              placeholder="Nama lengkap"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="nomorTelepon">Nomor Telepon</label>
+            <input
+              type="tel"
+              class="form-control"
+              id="nomorTelepon"
+              placeholder="Nomor Telepon"
+            />
+          </div>
+          <div class="form-group">
+            <label for="alasan"
+              >Alasan mengikuti program "Explore Thailand by Detiktravel"</label
+            >
+            <textarea class="form-control" id="alasan" rows="3"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="fotoProfil">Upload foto profil</label>
+            <input type="file" class="form-control-file" id="fotoProfil" />
+            <small class="form-text text-muted">
+              1. Format file: .png, .jpg, .jpeg<br />
+              2. Maksimal ukuran file 1MB<br />
+              3. Disarankan foto mencakup 3/4 badan
+            </small>
+          </div>
+          <div class="form-group">
+            <label for="instagram">Link Instagram</label>
+            <input
+              type="url"
+              class="form-control"
+              id="instagram"
+              placeholder="https://www.instagram.com/username"
+            />
+          </div>
+          <div class="form-check mb-3">
+            <input type="checkbox" class="form-check-input" id="agreement" />
+            <label class="form-check-label" for="agreement">
+              Dengan menekan tombol "Daftar", Saya menyetujui
+              <a href="#">syarat dan ketentuan</a> yang berlaku
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">
+            Daftar
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <footer class="foot">
+      <img src="exploreThai.png" id="foot_icon" alt="foot_icon" />
+      <p class="footer_text">
+        Bergabunglah dalam "Explore Thailand bersama Detiktravel"!
+        <br />
+        Kompetisi ini terbuka bagi pembaca Detiktravel yang ingin menikmati
+        perjalanan ke Thailand.
+        <br />
+        Kunjungi destinasi menakjubkan seperti pantai Pak Bia Island dan
+        destinasi lain di Phuket, Thailand.
+        <br />
+        Jadi bagian dari perjalanan kami dan menangkan hadiah jalan-jalan yang
+        tak terlupakan!
+      </p>
+      <p class="footer_contact">Connect With Us:</p>
+      <div class="social_icons">
+        <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="icon"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="icon"><i class="fab fa-youtube"></i></a>
+      </div>
+      <hr class="footer_line" />
+      <p class="copyright">Copyright @ 2023 detikcom. All right reserved</p>
+    </footer>
+  </body>
+</html>
